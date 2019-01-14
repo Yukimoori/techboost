@@ -1,0 +1,28 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>jQueryのタブ機能プラグイン</h1>
+
+  <div class="tabs tabs_default">
+    <ul class="horizontal">
+      <li><a href="#tab-1">jQueryのはじめ方</a></li>
+      <li><a href="#tab-2">セレクタ</a></li>
+      <li><a href="#tab-3">css</a></li>
+    </ul>
+    <div id="tab-1"><p>jQueryはオープンソースとして、最新版(2018/04/02時点)は https://code.jquery.com/jquery-3.3.1.min.js で公開されています。</p></div>
+    <div id="tab-2"><p>jQueryは表示されている「要素」を操作することを目的とすることが多く、そのためjQueryでの書き方の多くが「$('セレクタ')」のようになります。</p></div>
+    <div id="tab-3"><p>jQueryオブジェクトにたいして.css()というメソッドでstyleを指定することが可能ということを覚えてください。</p></div>
+  </div>
+
+  <!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- タブ整形用プラグインの読み込み -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tabslet.js/1.7.3/jquery.tabslet.min.js"></script>
+
+  <!-- 自作JavaScriptの読み込み -->
+  <script src="test06.js"></script>
+</body>
+</html>
